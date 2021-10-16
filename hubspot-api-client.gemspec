@@ -5,16 +5,15 @@ Gem::Specification.new do |s|
   s.name        = "hubspot-api-client"
   s.version     = Hubspot::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["HubSpot"]
+  s.authors     = ["HubSpot", "Wefunder"]
   s.email       = [""]
-  s.homepage    = "https://github.com/HubSpot/hubspot-api-ruby"
-  s.summary     = "HubSpot Ruby API Gem"
+  s.homepage    = "https://github.com/Wefunder/hubspot-api-ruby"
+  s.summary     = "HubSpot Ruby API Gem w/ Wefunder-Specific Dependency changes"
   s.description = "HubSpot Ruby API client"
   s.license     = "Apache-2.0"
   s.required_ruby_version = ">= 1.9"
 
   s.add_runtime_dependency 'typhoeus', '~> 1.4.0'
-  s.add_runtime_dependency 'json', '~> 1.8.6'
   s.add_runtime_dependency 'require_all', '~> 3.0.0'
 
   s.add_development_dependency 'rspec', '~> 3.6', '>= 3.6.0'
